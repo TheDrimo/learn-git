@@ -42,3 +42,22 @@ $ ls -la #pour afficher les dossiers cachés, noteamment le ".git"
 ```
 $ git status #pour savoir quels sont les dossiers dans le répertoire et s'ils sont ajoutés dans le dépôt
 ```
++ Indexer ses modifications
+```
+$ git add fichier1 fichier2 #pour déposer les fichiers nommés dans la zone d'index
+$ git add . #pour déposer tous les fichiers de la zone de travail
+$ git reset fichier1 #pour retirer le fichier1 de la zone d'index
+```
++ Faire son premier commit
+```
+$ git commit -m "message de commit" #pour enregistrer dans git les fichiers de la zone d'index
+```
++ Afficher les modifications en cours
+```
+$ git diff fichier1 #pour voir les modifs apportées au fichier1
+$ git diff #pour voir toutes les modifs
+$ git diff --cached #pour voir les modifs des fichiers indexés (qui sont déjà dans la zone d'index)
+```
++ Quiz3 : Les commits
++ Exercice et bilan de la section
+
