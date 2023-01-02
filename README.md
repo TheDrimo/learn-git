@@ -61,3 +61,14 @@ $ git diff --cached #pour voir les modifs des fichiers indexés (qui sont déjà
 + Quiz3 : Les commits
 + Exercice et bilan de la section
 
+## Voyager dans l'historique
+
++ Comprendre l'archivage des commits
+chaque commits s'inscrit dans une branche, la branch principale est la branch master.
+chaque commits va être décrit par :
+- un identifiant unique de 40 caractères (le SHA-1)
+- un ensemble de modificaiton
+- un commentaire décrivant le commit
+- les informations sur l'auteur (nom et mail)
+- une date
+- liste de SHA-1 de son (ou ses) parents
