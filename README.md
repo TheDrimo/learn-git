@@ -72,3 +72,35 @@ chaque commits va être décrit par :
 - les informations sur l'auteur (nom et mail)
 - une date
 - liste de SHA-1 de son (ou ses) parents
+
+#### Voir l'historique des commits
+Pour afficher les commits :
+```
+$ git log
+$ git show
+```
+
+#### Naviguer dans l'historique des commits
+```
+$ git log #pour afficher les commit
+$ git checkout Sha1duCommit #pour déplacer le curseur sur ce commit là
+$ git log #affichera seulement les commits précédent au commit sur lequel on est
+$ git checkout master #pour revenir sur le master
+```
+
+#### Utiliser des tags
+Les tags permettent de naviguer plus facilement qu'avec les sha1 et de personnaliser les versions de developpement
+```
+$ git checkout sha1ducommit
+$ git tag versionBeta #associe le tag "versionBeta" au commit sur lequel on est
+$ git --delete versionBeta #supprime le tag
+$ git tag #pour afficher les tags présents
+```
+
+#### Quiz4 : Voyager dans l'historique d'un dépôt Git
+#### Exercice et bilan de la section
+
+## Présentation de Github
+
+#### Découvrir Github
+#### Utiliser les gists
