@@ -107,3 +107,14 @@ $ git tag #pour afficher les tags présents
 utilisé pour partager une partie du code
 On réalise un gist à partir de l'icone "+" en haut à droite de la page github
 on bénéficie ainsi de l'aide de la communauté
+
+#### Créer et configurer un dépôt Git
+#### Explorer un dépôt Git
+#### Utilisez les issues
+#### Découvrir les forks et pull request
+Un pull request est : proposer des commits sur un dépôt dans lequel on ne peut pas écrire
+Pour réaliser un pull request, il faut d'abord réaliser un fork du projet (c'est à dire une copie d'un dépôt, enregistré dans mon compte github)
+
+#### Accéder à vos dépôts Github via les tokens
+Deux moyens d'accéder à un dépôt : SSH ou HTTPS
+HTTPS : on se connecte grace à un login et un token (mdp généré par github aléatoirement)
