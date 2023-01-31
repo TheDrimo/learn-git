@@ -118,3 +118,8 @@ Pour réaliser un pull request, il faut d'abord réaliser un fork du projet (c'e
 #### Accéder à vos dépôts Github via les tokens
 Deux moyens d'accéder à un dépôt : SSH ou HTTPS
 HTTPS : on se connecte grace à un login et un token (mdp généré par github aléatoirement)
+
+## Utiliser un dépôt distant
+
+#### Comprendre le modèle distribué
+
