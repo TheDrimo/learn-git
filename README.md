@@ -104,3 +104,6 @@ $ git tag #pour afficher les tags présents
 
 #### Découvrir Github
 #### Utiliser les gists
+utilisé pour partager une partie du code
+On réalise un gist à partir de l'icone "+" en haut à droite de la page github
+on bénéficie ainsi de l'aide de la communauté
